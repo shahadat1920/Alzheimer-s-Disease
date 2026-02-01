@@ -1,5 +1,7 @@
 # Alzheimer's Disease
-This project follow high dimensional gene expression and DNA methylation dataset . Throughout our project we analysis  and filter out risk genes associated with AD .
+
+Abstract: 
+Alzheimer’s disease (AD) presents significant challenges in biomarker discovery and predictive modeling due to its complex molecular mechanisms and high-dimensional datasets. Therefore, we approach a simple but novel feature selection method on the multi-omics dataset. By integrating multi-omics datasets from brain tissue, our proposed method identified 17 overlapping genes between gene expression and DNA methylation data, including MS4A4A, which emerged as a promising biomarker consistent with prior evidence. We evaluated several machine learning and deep learning models, using proposed method to the Random Forest, RF-Hybrid, and Multilayer Perceptron, achieving predictive accuracies of up to 0.89, comparable to conventional approaches such as PCA and ANOVA. Enrichment analyses further revealed that the selected genes are involved in critical AD-related processes, such as synaptic dysfunction, cytoskeletal regulation, immune response, and protein homeostasis. The key factor of miRNA (hsa-34a-5p) has been found from the upregulated genes. These results highlight the power of integrative multi-omics approaches to improve predictive performance while uncovering mechanistic insights into AD pathogenesis.
 
 Project Goals : 
 • To integrate multi-omics datasets from two different brain tissues using a novel feature selection method.
@@ -40,16 +42,21 @@ Results :
 
 <img width="751" height="450" alt="image" src="https://github.com/user-attachments/assets/13d7ce4e-29d8-451a-ad7b-dffc4397a464" />
 
-Fig. 1 : Proposed method-based ML and DL models performance comparison.
+                   Fig. 1 : Proposed method-based ML and DL models performance comparison.
 
 <img width="1433" height="950" alt="image" src="https://github.com/user-attachments/assets/d4e4a361-8cb0-4229-9477-bdcf6f6f4a1e" />
-Fig. 2 : Model summary influential SHAP value for AD condition.
+                   Fig. 2 : Model summary influential SHAP value for AD condition.
+
 <img width="1491" height="751" alt="image" src="https://github.com/user-attachments/assets/a54299de-ac82-4f0a-b05e-16952fcb231e" />
-Fig. 3 : Functional enrichment test with KEGG pathway.
+                   Fig. 3 : Functional enrichment test with KEGG pathway.
+
 <img width="1351" height="595" alt="image" src="https://github.com/user-attachments/assets/b62b59f2-f6cf-4919-98a5-6b6580c04ca9" />
-Fig. 4 : Functional enrichment test with gene ontology (Biological Process).
+                   Fig. 4 : Functional enrichment test with gene ontology (Biological Process).
+
 <img width="546" height="370" alt="image" src="https://github.com/user-attachments/assets/4d47280e-6882-418a-91e8-02e636192f06" />
-Fig. 5 : Network generated with three miRNAs. It shows the important factor of top risk genes.
+                   Fig. 5 : Network generated with three miRNAs. It shows the important factor of top risk genes.
+
+            
 
 
 
