@@ -12,6 +12,7 @@ Project Goals :
 Working Flow : 
 <img width="1632" height="1171" alt="image" src="https://github.com/user-attachments/assets/812d4bf7-7618-4c77-aae8-0ddcc5debab7" />
 
+           Fig. 1 : Workflow of entire proposed system consisting of novel feature selection and model development.
 DEGs and DMPs Selection: 
 
 High-dimensional data from multi-omics datasets requires appropriate gene selection techniques to create precise models and gain a better understanding of high-risk genes linked to complicated neurological disorders. This study's main goal is to use appropriate feature selection techniques to identify the genes that pose the most danger. This was accomplished by identifying the key predictors of early AD disease using traditional, straightforward, yet innovative methods.
@@ -42,19 +43,23 @@ Results :
 
 <img width="751" height="450" alt="image" src="https://github.com/user-attachments/assets/13d7ce4e-29d8-451a-ad7b-dffc4397a464" />
 
-                   Fig. 1 : Proposed method-based ML and DL models performance comparison.
+                   Fig. 2 : Proposed method-based ML and DL models performance comparison.
 
 <img width="1433" height="950" alt="image" src="https://github.com/user-attachments/assets/d4e4a361-8cb0-4229-9477-bdcf6f6f4a1e" />
-                   Fig. 2 : Model summary influential SHAP value for AD condition.
+
+                   Fig. 3 : Model summary influential SHAP value for AD condition.
 
 <img width="1491" height="751" alt="image" src="https://github.com/user-attachments/assets/a54299de-ac82-4f0a-b05e-16952fcb231e" />
-                   Fig. 3 : Functional enrichment test with KEGG pathway.
+
+                   Fig. 4 : Functional enrichment test with KEGG pathway.
 
 <img width="1351" height="595" alt="image" src="https://github.com/user-attachments/assets/b62b59f2-f6cf-4919-98a5-6b6580c04ca9" />
-                   Fig. 4 : Functional enrichment test with gene ontology (Biological Process).
+
+                   Fig. 5 : Functional enrichment test with gene ontology (Biological Process).
 
 <img width="546" height="370" alt="image" src="https://github.com/user-attachments/assets/4d47280e-6882-418a-91e8-02e636192f06" />
-                   Fig. 5 : Network generated with three miRNAs. It shows the important factor of top risk genes.
+
+                   Fig. 6 : Network generated with three miRNAs
 
             
 
